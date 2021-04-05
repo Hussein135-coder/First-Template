@@ -37,6 +37,10 @@ button{
     font-family: inherit
 }
 
+.button-home{
+    display: flex;
+    justify-content: center;
+}
 .clear{
     clear: both;
 }
@@ -145,7 +149,7 @@ a{
 
 .header .nav{
     width: 60%;
-    float: left;
+    float: right;
     list-style-type: none;
     text-align: right;
 }
@@ -216,8 +220,8 @@ margin-top: 2px;
 
 
 /* Home Section */
-.home{
-    height: 100vh;
+.home{  
+    height:100vh;
     background-image: url(../images/background/background1.webp);
     background-size: cover;
     background-attachment: fixed;
